@@ -66,3 +66,80 @@ Portfólio da Escola de Música Ministério Atos Praise
   </footer>
 </body>
 </html>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #010658;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #5a199c;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #d80816;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #ffb246;
+  color: #010658;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+}
